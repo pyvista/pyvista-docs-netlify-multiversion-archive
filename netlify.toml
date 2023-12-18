@@ -1,0 +1,95 @@
+[[redirects]]
+from = "/version/stable/*"
+to = "https://pyvista-0-43.netlify.app/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "/version/0.43/*"
+to = "https://pyvista-0-43.netlify.app/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "/version/0.42/*"
+to = "https://pyvista-0-42.netlify.app/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "/version/0.41/*"
+to = "https://pyvista-0-41.netlify.app/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "/version/0.40/*"
+to = "https://pyvista-0-40.netlify.app/:splat"
+status = 200
+force = true
+
+[[redirects]]
+from = "/version/dev/*"
+to = "https://pyvista-dev.netlify.app/:splat"
+status = 200
+force = true
+
+###############################
+# Redirects for top-level links
+
+[[redirects]]
+from = "/genindex.html"
+to = "/version/stable/genindex.html"
+status = 301
+force = false
+
+[[redirects]]
+from = "/objects.inv"
+to = "/version/stable/objects.inv"
+status = 301
+force = false
+
+[[redirects]]
+from = "/py-modindex.html"
+to = "/version/stable/py-modindex.html"
+status = 301
+force = false
+
+[[redirects]]
+from = "/index.html"
+to = "/version/stable/index.html"
+status = 301
+force = false
+
+###############################
+# Redirects for legacy links
+
+[[redirects]]
+from = "/_static/*"
+to = "/version/stable/_static/:splat"
+status = 301
+force = false
+
+[[redirects]]
+from = "/api/*"
+to = "/version/stable/api/:splat"
+status = 301
+force = false
+
+[[redirects]]
+from = "/examples/*"
+to = "/version/stable/examples/:splat"
+status = 301
+force = false
+
+[[redirects]]
+from = "/extras/*"
+to = "/version/stable/extras/:splat"
+status = 301
+force = false
+
+[[redirects]]
+from = "/user-guide/*"
+to = "/version/stable/user-guide/:splat"
+status = 301
+force = false
