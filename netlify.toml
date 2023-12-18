@@ -93,3 +93,9 @@ from = "/user-guide/*"
 to = "/version/stable/user-guide/:splat"
 status = 301
 force = false
+
+[[redirects]]
+from = "/getting-started/*"
+to = "/version/stable/getting-started/:splat"
+status = 301
+force = false
