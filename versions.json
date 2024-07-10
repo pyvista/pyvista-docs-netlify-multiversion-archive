@@ -5,9 +5,14 @@
     "url": "https://docs.pyvista.org/version/dev/"
   },
   {
-    "name": "0.43 (stable)",
-    "version": "0.43",
+    "name": "0.44 (stable)",
+    "version": "0.44",
     "url": "https://docs.pyvista.org/version/stable/"
+  },
+  {
+    "name": "0.43",
+    "version": "0.43",
+    "url": "https://docs.pyvista.org/version/0.43/"
   },
   {
     "name": "0.42",
