@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/version/stable/*"
-to = "https://pyvista-0-44.netlify.app/:splat"
+to = "https://pyvista-stable.netlify.app/:splat"
 status = 200
 force = true
 
