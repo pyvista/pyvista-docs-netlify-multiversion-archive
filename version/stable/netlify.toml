@@ -1,0 +1,5 @@
+[[redirects]]
+from = "*"
+to = "https://pyvista-0-44.netlify.app/:splat"
+status = 200
+force = true
